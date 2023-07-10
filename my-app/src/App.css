@@ -1,0 +1,430 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 3px #000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 45px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 13px;
+  transition: .3s ease;
+}
+
+nav ul li a:hover {
+  background-color: royalblue;
+}
+
+header ul #Contact a {
+  color: #fff;
+  background-color: royalblue;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -15px;
+  transition: .3s ease;
+}
+
+header ul #Contact a:hover {
+  background-color: royalblue;
+}
+
+header li img {
+  width: 180px;
+  float: left;
+  margin-top: -20px;
+}
+
+.active {
+  color: royalblue;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Story style */
+.featured-stories {
+  margin-bottom: 40px;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.story-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.story-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.story-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.story-card p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.story-card a {
+  color: royalblue;
+  font-weight: bold;
+}
+
+.latest-news {
+  margin-bottom: 40px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.news-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.news-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.news-card p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.news-card a {
+  color: royalblue;
+  font-weight: bold;
+}
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Search section */
+.search {
+  margin-bottom: 40px;
+}
+
+.search form {
+  display: flex;
+  align-items: left;
+}
+
+.search input[type="text"] {
+  flex: 10;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #1366d6;
+}
+
+.search {
+  margin-bottom: 40px;
+}
+
+.search h2 {
+  margin-bottom: 10px;
+}
+
+.search form {
+  display: flex;
+  align-items: left;
+}
+
+.search input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search button[type="submit"] {
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.search button[type="submit"]:hover {
+  background-color: dodgerblue;
+}
+
+.comments {
+  margin-bottom: 40px;
+}
+
+.comments h2 {
+  margin-bottom: 10px;
+}
+
+.comment-list {
+  margin-bottom: 20px;
+}
+
+.comment-list .comment-text {
+  margin-bottom: 5px;
+}
+
+.comment-list .comment-author,
+.timestamp {
+  font-size: 12px;
+  color: #888;
+}
+
+.comments form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.comments input[type="text"],
+.comments textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comments textarea {
+  resize: vertical;
+}
+
+.comments button[type="submit"] {
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comments button[type="submit"]:hover {
+  background-color: dodgerblue;
+}
+
+/* Footer styles */
+footer {
+  background-color: #efe1e1;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 768px) {
+
+  .story-grid,
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Social Media Share */
+.social-sharing {
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.share-button:hover {
+  background-color: #ccc;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+/* Pages Stying */
+
+/* SignIn */
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Add additional styles as needed */
