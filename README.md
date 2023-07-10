@@ -1,6 +1,6 @@
 # asthingsbe
 
-News and Lifestyle and Entertainment Blog
+News Lifestyle and Entertainment Blog
 
 A news and lifestyle blog where users can explore and read articles on various topics. The blog provides a platform to share informative and engaging content related to news, lifestyle,entertainment, fashion, trends and more.
 
